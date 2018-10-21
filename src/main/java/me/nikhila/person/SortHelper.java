@@ -49,7 +49,6 @@ public class SortHelper {
      * */
     private Comparator getDoubleComparator(Method method) {
 
-        // Get the comparator using Java 8 lambda expression
         return new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
@@ -72,8 +71,6 @@ public class SortHelper {
      * */
     private Comparator getDateComparator(Method method) {
 
-        // Get the comparator using Java 8 lambda expression
-
         return new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
@@ -95,7 +92,6 @@ public class SortHelper {
      * */
     private Comparator getStringComparator(Method method) {
 
-        // Get the comparator using Java 8 lambda expression
         return new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
