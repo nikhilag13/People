@@ -55,7 +55,7 @@ public class SortPerson {
     public static List<Person> sort(Iterable<Person> people, String sortField, String ascending) {
 
 
-        // If empty list or
+        // If empty list
         if(sortField == null || sortField.length() < 1)
             return new ArrayList<Person>();
 
